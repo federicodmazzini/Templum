@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		069AC8E4285BA14400C3FF9B /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069AC8E3285BA14400C3FF9B /* SignIn.swift */; };
+		069AC8E5285BA14400C3FF9B /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069AC8E3285BA14400C3FF9B /* SignIn.swift */; };
+		069AC8E8285BA26900C3FF9B /* TemplumTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069AC8E7285BA26900C3FF9B /* TemplumTextField.swift */; };
+		069AC8E9285BA26900C3FF9B /* TemplumTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069AC8E7285BA26900C3FF9B /* TemplumTextField.swift */; };
+		069AC8EB285BA6BA00C3FF9B /* TemplumButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069AC8EA285BA6BA00C3FF9B /* TemplumButton.swift */; };
+		069AC8EC285BA6BA00C3FF9B /* TemplumButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069AC8EA285BA6BA00C3FF9B /* TemplumButton.swift */; };
+		069AC8EF285BB26300C3FF9B /* TemplumTappableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069AC8EE285BB26300C3FF9B /* TemplumTappableLabel.swift */; };
+		069AC8F0285BB26300C3FF9B /* TemplumTappableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069AC8EE285BB26300C3FF9B /* TemplumTappableLabel.swift */; };
 		06A1D163285B733D00E5E38E /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A1D162285B733D00E5E38E /* Tests_iOS.swift */; };
 		06A1D165285B733D00E5E38E /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A1D164285B733D00E5E38E /* Tests_iOSLaunchTests.swift */; };
 		06A1D16F285B733E00E5E38E /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06A1D16E285B733E00E5E38E /* Tests_macOS.swift */; };
@@ -37,6 +45,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		069AC8E3285BA14400C3FF9B /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
+		069AC8E7285BA26900C3FF9B /* TemplumTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplumTextField.swift; sourceTree = "<group>"; };
+		069AC8EA285BA6BA00C3FF9B /* TemplumButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplumButton.swift; sourceTree = "<group>"; };
+		069AC8EE285BB26300C3FF9B /* TemplumTappableLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplumTappableLabel.swift; sourceTree = "<group>"; };
 		06A1D14A285B733B00E5E38E /* TemplumApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplumApp.swift; sourceTree = "<group>"; };
 		06A1D14B285B733B00E5E38E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		06A1D14C285B733D00E5E38E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -83,6 +95,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		069AC8E6285BA25800C3FF9B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				069AC8E7285BA26900C3FF9B /* TemplumTextField.swift */,
+				069AC8EA285BA6BA00C3FF9B /* TemplumButton.swift */,
+				069AC8EE285BB26300C3FF9B /* TemplumTappableLabel.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		06A1D144285B733A00E5E38E = {
 			isa = PBXGroup;
 			children = (
@@ -97,9 +119,11 @@
 		06A1D149285B733B00E5E38E /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				069AC8E6285BA25800C3FF9B /* Views */,
 				06A1D14A285B733B00E5E38E /* TemplumApp.swift */,
 				06A1D14B285B733B00E5E38E /* ContentView.swift */,
 				06A1D14C285B733D00E5E38E /* Assets.xcassets */,
+				069AC8E3285BA14400C3FF9B /* SignIn.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -299,7 +323,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				069AC8EF285BB26300C3FF9B /* TemplumTappableLabel.swift in Sources */,
 				06A1D174285B733E00E5E38E /* ContentView.swift in Sources */,
+				069AC8E4285BA14400C3FF9B /* SignIn.swift in Sources */,
+				069AC8EB285BA6BA00C3FF9B /* TemplumButton.swift in Sources */,
+				069AC8E8285BA26900C3FF9B /* TemplumTextField.swift in Sources */,
 				06A1D172285B733E00E5E38E /* TemplumApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -308,7 +336,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				069AC8F0285BB26300C3FF9B /* TemplumTappableLabel.swift in Sources */,
 				06A1D175285B733E00E5E38E /* ContentView.swift in Sources */,
+				069AC8E5285BA14400C3FF9B /* SignIn.swift in Sources */,
+				069AC8EC285BA6BA00C3FF9B /* TemplumButton.swift in Sources */,
+				069AC8E9285BA26900C3FF9B /* TemplumTextField.swift in Sources */,
 				06A1D173285B733E00E5E38E /* TemplumApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
